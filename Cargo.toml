@@ -5,4 +5,15 @@ edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+[lib]
+crate-type = ["cdylib"]
+
 [dependencies]
+audiopus = "0.2.0"
+
+# Temporary: Use an updated-but-unreleased version of `vst` with much
+# better ergonomics (not requiring plugins to implement `Default`)
+# This is between v0.2.1 and the next release, so once the next release
+# comes out we can go back to using the published version
+#vst = "0.2.1"
+vst = { git = "https://github.com/RustAudio/vst-rs.git", rev = "822e1d3b53666226b09e2c532e16a3dbe87a8fb5" }
