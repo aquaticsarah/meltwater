@@ -1,6 +1,6 @@
 # Meltwater: An experimental lo-fi audio plugin
 
-Meltwater is a VST2[1] plugin providing a type of "lo-fi" audio degradation
+Meltwater is a [VST2][1] plugin providing a type of "lo-fi" audio degradation
 which is a little different to more common methods such as sample rate / bit
 depth reduction.
 
@@ -26,8 +26,8 @@ Meltwater is licensed under the [GPLv3][3], a copy of which is included here as
 `LICENSE.txt`. 
 
 Each file should contain the following lines; the wording is derive from
-["Copyright Notices for Open Source Projects"][2] and [the SPDX ID
-guidelines][3]:
+["Copyright Notices for Open Source Projects"][4] and [the SPDX ID
+guidelines][5]:
 
 ```rust
 // Meltwater: [short description of file]
@@ -49,3 +49,5 @@ whole.
 [1]: https://en.wikipedia.org/wiki/Virtual_Studio_Technology
 [2]: https://opus-codec.org/
 [3]: https://choosealicense.com/licenses/gpl-3.0/
+[4]: https://ben.balter.com/2015/06/03/copyright-notices-for-websites-and-open-source-projects/
+[5]: https://spdx.dev/ids/
